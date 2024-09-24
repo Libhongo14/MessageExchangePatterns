@@ -1,0 +1,6 @@
+c:\users\libhongo\documents\visual studio 2015\Projects\WCFTraining\MathServiceLibraryDemo\MathServiceLibrary\bin\Debug\MathServiceLibrary.dll.config
+c:\users\libhongo\documents\visual studio 2015\Projects\WCFTraining\MathServiceLibraryDemo\MathServiceLibrary\bin\Debug\MathServiceLibrary.dll
+c:\users\libhongo\documents\visual studio 2015\Projects\WCFTraining\MathServiceLibraryDemo\MathServiceLibrary\bin\Debug\MathServiceLibrary.pdb
+c:\users\libhongo\documents\visual studio 2015\Projects\WCFTraining\MathServiceLibraryDemo\MathServiceLibrary\obj\Debug\MathServiceLibrary.csprojResolveAssemblyReference.cache
+c:\users\libhongo\documents\visual studio 2015\Projects\WCFTraining\MathServiceLibraryDemo\MathServiceLibrary\obj\Debug\MathServiceLibrary.dll
+c:\users\libhongo\documents\visual studio 2015\Projects\WCFTraining\MathServiceLibraryDemo\MathServiceLibrary\obj\Debug\MathServiceLibrary.pdb
