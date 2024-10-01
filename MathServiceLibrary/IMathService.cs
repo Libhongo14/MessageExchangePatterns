@@ -8,7 +8,7 @@ using System.Text;
 namespace MathServiceLibrary
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IService1" in both code and config file together.
-    [ServiceContract]
+    [ServiceContract(CallbackContract =typeof(IMathServiceCallback))]
     public interface IMathService
     {
         [OperationContract]
@@ -22,7 +22,15 @@ namespace MathServiceLibrary
 
         [OperationContract(IsOneWay = true)]
         void SignOut(string UserName);
-        // TODO: Add your service operations here
+
+        [OperationContract(IsOneWay = true)]
+        void StartPrintingLogFiles(string message);
+    }
+
+    public interface IMathServiceCallback
+    {
+        [OperationContract(IsOneWay = true)]
+        void NotifyClientWhenPrintingIsDone(string message);//Method to be implemented on the client side
     }
 
     // Use a data contract as illustrated in the sample below to add composite types to service operations.
