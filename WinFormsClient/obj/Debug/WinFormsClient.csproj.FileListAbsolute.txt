@@ -15,3 +15,4 @@ C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\MessageExcha
 C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\MessageExchangePatterns\WinFormsClient\bin\Debug\WinFormsClient.exe.config
 C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\MessageExchangePatterns\WinFormsClient\bin\Debug\WinFormsClient.exe
 C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\MessageExchangePatterns\WinFormsClient\bin\Debug\WinFormsClient.pdb
+C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\MessageExchangePatterns\WinFormsClient\obj\Debug\WinFormsClient.csprojResolveAssemblyReference.cache

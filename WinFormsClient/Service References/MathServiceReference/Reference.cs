@@ -75,7 +75,7 @@ namespace WinFormsClient.MathServiceReference {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="MathServiceReference.IMathService")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="MathServiceReference.IMathService", CallbackContract=typeof(WinFormsClient.MathServiceReference.IMathServiceCallback))]
     public interface IMathService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMathService/Add", ReplyAction="http://tempuri.org/IMathService/AddResponse")]
@@ -101,6 +101,19 @@ namespace WinFormsClient.MathServiceReference {
         
         [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="http://tempuri.org/IMathService/SignOut")]
         System.Threading.Tasks.Task SignOutAsync(string UserName);
+        
+        [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="http://tempuri.org/IMathService/StartPrintingLogFiles")]
+        void StartPrintingLogFiles(string message);
+        
+        [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="http://tempuri.org/IMathService/StartPrintingLogFiles")]
+        System.Threading.Tasks.Task StartPrintingLogFilesAsync(string message);
+    }
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public interface IMathServiceCallback {
+        
+        [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="http://tempuri.org/IMathService/NotifyClientWhenPrintingIsDone")]
+        void NotifyClientWhenPrintingIsDone(string message);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -109,25 +122,26 @@ namespace WinFormsClient.MathServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class MathServiceClient : System.ServiceModel.ClientBase<WinFormsClient.MathServiceReference.IMathService>, WinFormsClient.MathServiceReference.IMathService {
+    public partial class MathServiceClient : System.ServiceModel.DuplexClientBase<WinFormsClient.MathServiceReference.IMathService>, WinFormsClient.MathServiceReference.IMathService {
         
-        public MathServiceClient() {
+        public MathServiceClient(System.ServiceModel.InstanceContext callbackInstance) : 
+                base(callbackInstance) {
         }
         
-        public MathServiceClient(string endpointConfigurationName) : 
-                base(endpointConfigurationName) {
+        public MathServiceClient(System.ServiceModel.InstanceContext callbackInstance, string endpointConfigurationName) : 
+                base(callbackInstance, endpointConfigurationName) {
         }
         
-        public MathServiceClient(string endpointConfigurationName, string remoteAddress) : 
-                base(endpointConfigurationName, remoteAddress) {
+        public MathServiceClient(System.ServiceModel.InstanceContext callbackInstance, string endpointConfigurationName, string remoteAddress) : 
+                base(callbackInstance, endpointConfigurationName, remoteAddress) {
         }
         
-        public MathServiceClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
-                base(endpointConfigurationName, remoteAddress) {
+        public MathServiceClient(System.ServiceModel.InstanceContext callbackInstance, string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(callbackInstance, endpointConfigurationName, remoteAddress) {
         }
         
-        public MathServiceClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
-                base(binding, remoteAddress) {
+        public MathServiceClient(System.ServiceModel.InstanceContext callbackInstance, System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(callbackInstance, binding, remoteAddress) {
         }
         
         public int Add(WinFormsClient.MathServiceReference.MyNumbers obj) {
@@ -160,6 +174,14 @@ namespace WinFormsClient.MathServiceReference {
         
         public System.Threading.Tasks.Task SignOutAsync(string UserName) {
             return base.Channel.SignOutAsync(UserName);
+        }
+        
+        public void StartPrintingLogFiles(string message) {
+            base.Channel.StartPrintingLogFiles(message);
+        }
+        
+        public System.Threading.Tasks.Task StartPrintingLogFilesAsync(string message) {
+            return base.Channel.StartPrintingLogFilesAsync(message);
         }
     }
 }

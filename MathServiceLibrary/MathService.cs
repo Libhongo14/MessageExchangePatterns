@@ -40,6 +40,27 @@ namespace MathServiceLibrary
             File.AppendAllText(@"C:\Users\Libhongo\Desktop\UserLog.txt", str.ToString());
         }
 
-        
+        //Gets called by the WinFormsClient
+        public void StartPrintingLogFile(string message)
+        {
+            IMathServiceCallback Mscallback =
+                OperationContext.Current.GetCallbackChannel<
+                    IMathServiceCallback>();
+
+            //After the printing is done the client will be notified after 5 seconds
+            System.Threading.Thread.Sleep(new TimeSpan(0, 0, 5));
+            Mscallback.NotifyClientWhenPrintingIsDone(message);
+        }
+
+        public void StartPrintingLogFiles(string message)
+        {
+            IMathServiceCallback Mscallback =
+               OperationContext.Current.GetCallbackChannel<
+                   IMathServiceCallback>();
+
+            //After the printing is done the client will be notified after 5 seconds
+            System.Threading.Thread.Sleep(new TimeSpan(0, 0, 5));
+            Mscallback.NotifyClientWhenPrintingIsDone(message);
+        }
     }
 }

@@ -9,3 +9,4 @@ C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\MessageExcha
 C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\MessageExchangePatterns\MathServiceLibrary\bin\Debug\MathServiceLibrary.pdb
 C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\MessageExchangePatterns\MathServiceLibrary\obj\Debug\MathServiceLibrary.dll
 C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\MessageExchangePatterns\MathServiceLibrary\obj\Debug\MathServiceLibrary.pdb
+C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\MessageExchangePatterns\MathServiceLibrary\obj\Debug\MathServiceLibrary.csprojResolveAssemblyReference.cache
