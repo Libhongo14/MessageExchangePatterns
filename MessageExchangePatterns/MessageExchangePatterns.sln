@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathServiceLibrary", "..\MathServiceLibrary\MathServiceLibrary.csproj", "{71B2ABEA-4D4D-4422-A4E2-402486D0927B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebHostDemo", "..\WebHostDemo\WebHostDemo.csproj", "{9408F1F1-2034-4E15-9F9B-BC597E495318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsClient", "..\WinFormsClient\WinFormsClient.csproj", "{02018991-9A8B-4784-9847-69F15141E669}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71B2ABEA-4D4D-4422-A4E2-402486D0927B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71B2ABEA-4D4D-4422-A4E2-402486D0927B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71B2ABEA-4D4D-4422-A4E2-402486D0927B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71B2ABEA-4D4D-4422-A4E2-402486D0927B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9408F1F1-2034-4E15-9F9B-BC597E495318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9408F1F1-2034-4E15-9F9B-BC597E495318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9408F1F1-2034-4E15-9F9B-BC597E495318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9408F1F1-2034-4E15-9F9B-BC597E495318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02018991-9A8B-4784-9847-69F15141E669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02018991-9A8B-4784-9847-69F15141E669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02018991-9A8B-4784-9847-69F15141E669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02018991-9A8B-4784-9847-69F15141E669}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -17,6 +17,11 @@ namespace MathServiceLibrary
         [OperationContract]
         int Sutract(MyNumbers obj);
 
+        [OperationContract(IsOneWay = true)]
+        void SignIn(string UserName);
+
+        [OperationContract(IsOneWay = true)]
+        void SignOut(string UserName);
         // TODO: Add your service operations here
     }
 

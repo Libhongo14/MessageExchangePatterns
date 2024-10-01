@@ -7,3 +7,11 @@ c:\users\libhongo\documents\visual studio 2015\Projects\WCFTraining\MathServiceL
 c:\users\libhongo\documents\visual studio 2015\Projects\WCFTraining\MathServiceLibraryDemo\WinFormsClient\obj\Debug\WinFormsClient.csproj.GenerateResource.Cache
 c:\users\libhongo\documents\visual studio 2015\Projects\WCFTraining\MathServiceLibraryDemo\WinFormsClient\obj\Debug\WinFormsClient.exe
 c:\users\libhongo\documents\visual studio 2015\Projects\WCFTraining\MathServiceLibraryDemo\WinFormsClient\obj\Debug\WinFormsClient.pdb
+C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\MessageExchangePatterns\WinFormsClient\obj\Debug\WinFormsClient.Form1.resources
+C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\MessageExchangePatterns\WinFormsClient\obj\Debug\WinFormsClient.Properties.Resources.resources
+C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\MessageExchangePatterns\WinFormsClient\obj\Debug\WinFormsClient.csproj.GenerateResource.Cache
+C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\MessageExchangePatterns\WinFormsClient\obj\Debug\WinFormsClient.exe
+C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\MessageExchangePatterns\WinFormsClient\obj\Debug\WinFormsClient.pdb
+C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\MessageExchangePatterns\WinFormsClient\bin\Debug\WinFormsClient.exe.config
+C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\MessageExchangePatterns\WinFormsClient\bin\Debug\WinFormsClient.exe
+C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\MessageExchangePatterns\WinFormsClient\bin\Debug\WinFormsClient.pdb

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Security.Principal;
 
 namespace WinFormsClient
 {
@@ -34,6 +35,16 @@ namespace WinFormsClient
             obj.Number2 = Convert.ToInt32(textBox2.Text);
 
             textBox3.Text = proxy.Sutract(obj).ToString();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            proxy.SignIn(WindowsIdentity.GetCurrent().Name);
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            proxy.SignOut(WindowsIdentity.GetCurrent().Name);
         }
     }
 }

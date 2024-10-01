@@ -19,3 +19,12 @@ c:\users\libhongo\documents\visual studio 2015\Projects\WCFTraining\MathServiceL
 c:\users\libhongo\documents\visual studio 2015\Projects\WCFTraining\MathServiceLibraryDemo\WebHostDemo\obj\Debug\WebHostDemo.csprojResolveAssemblyReference.cache
 c:\users\libhongo\documents\visual studio 2015\Projects\WCFTraining\MathServiceLibraryDemo\WebHostDemo\obj\Debug\WebHostDemo.dll
 c:\users\libhongo\documents\visual studio 2015\Projects\WCFTraining\MathServiceLibraryDemo\WebHostDemo\obj\Debug\WebHostDemo.pdb
+C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\MessageExchangePatterns\WebHostDemo\bin\ApplicationInsights.config
+C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\MessageExchangePatterns\WebHostDemo\bin\WebHostDemo.dll.config
+C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\MessageExchangePatterns\WebHostDemo\bin\WebHostDemo.dll
+C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\MessageExchangePatterns\WebHostDemo\bin\WebHostDemo.pdb
+C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\MessageExchangePatterns\WebHostDemo\bin\MathServiceLibrary.dll
+C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\MessageExchangePatterns\WebHostDemo\bin\MathServiceLibrary.pdb
+C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\MessageExchangePatterns\WebHostDemo\obj\Debug\WebHostDemo.csprojResolveAssemblyReference.cache
+C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\MessageExchangePatterns\WebHostDemo\obj\Debug\WebHostDemo.dll
+C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\MessageExchangePatterns\WebHostDemo\obj\Debug\WebHostDemo.pdb
